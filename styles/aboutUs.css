@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.aboutus-main-container{
+    background-color: rgb(11, 77, 11);
+    
+}
+.aboutus-parent-container{
+    display: flex;
+    flex-direction: column;
+    background-color: tomato
+}
+.aboutus-header-container{
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 50% 100%);
+    display: flex;
+    align-items:center ;
+    justify-content: flex-end;
+}
+.about-title{
+    /* background-color: rgb(14, 93, 17); */
+    width: 30%;
+    margin-right: 10rem;
+    pad: 2rem;
+    
+}
+.about-title h1{
+    font-size: 5vw;
+    z-index: 99;
+}
+.about-title p{
+    font-size: 1.5vw;
+    color:#494747 ;
+    line-height: 2em;
+    z-index: 99;
+}
+
+.about-details{
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.about-details img{
+    margin-left: 5rem;
+    height: 50vh;
+    width: 70vh;
+}
+.about-sub-header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+.about-info{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.about-info p{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top: 2em;
+    color: #494747;
+    font-weight: 200;
+    margin-right: 5rem;
+}
+.aboutus-btn{
+    margin-left: 5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 5rem;
+    width: fit-content;
+    background-color: tomato;
+    color: #fff;
+    border: 0px;
+    font-size: 2em;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutus-btn:hover {
+    background-color: rgb(250, 72, 41);
+
+}
+.aboutus-btn a{
+    text-decoration: none;
+    color: #fff;
+}
